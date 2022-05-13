@@ -1,6 +1,5 @@
 /*
 TODO: Fix content break line showing in the background of navbar text
-TODO: Fix content inside of containers on page is off-centered
 TODO: Vertical align content within the containers
 TODO: Fix using max width on p element disables the center text alignment and shifts it to the left
 */
@@ -46,7 +45,7 @@ nav a:hover {
 
 .container {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0px;
     width: 100%;
 }
 
