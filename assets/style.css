@@ -1,3 +1,10 @@
+/*
+TODO: Fix content break line showing in the background of navbar text
+TODO: Fix content inside of containers on page is off-centered
+TODO: Vertical align content within the containers
+TODO: Fix using max width on p element disables the center text alignment and shifts it to the left
+*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,24 +22,18 @@ html {
     max-height: 50px;
     width: 100%;
     border-bottom: black 2px solid;
-    display: block;
-}
-
-.navbar * {
-    display: inline-block;
+    display: flex;
 }
 
 .navbar img {
     max-height: 48px;
     padding: 2px;
     background-color: white;
-    float: left;
     margin-right: 2px;
     border: 2px black;
 }
 
 .navbar a {
-    float: left;
     color: white;
     text-align: center;
     padding: 14px 20px;
