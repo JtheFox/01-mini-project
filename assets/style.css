@@ -13,7 +13,7 @@ html {
     background-color: #fefefe;
 }
 
-.navbar {
+nav {
     overflow: hidden;
     background-color: #333;
     position: fixed;
@@ -25,33 +25,29 @@ html {
     display: flex;
 }
 
-.navbar img {
+nav img {
     padding: 0px 5px;
     filter: invert(90%);
 }
 
-.navbar a {
+nav a {
     color: white;
+    background-color: #333;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
     font-size: large;
+    transition: 0.2s;
 }
 
-.navbar a:hover {
-    background-color: #eee;
-    color: black;
-}
-
-body {
-    margin-top: 2%;
+nav a:hover {
+    filter: invert(100%);
 }
 
 .container {
     text-align: center;
     padding: 50px;
     width: 100%;
-    min-height: 150px;
 }
 
 /* .container p {
